@@ -52,7 +52,8 @@
 
 .lista-menu__link {
     background: var(--azul-degrade);
-    -webkit-background-clip: text;
+    -webkit-background-clip: text; /*para funcionar o back. clip em outros navegadores*/
     -webkit-text-fill-color: transparent;
-    background-clip: text;
+    background-clip: text; /*Prende a cor de background só onde tem texto*/
+    text-transform: uppercase;
 }
