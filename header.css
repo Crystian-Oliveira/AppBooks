@@ -12,6 +12,7 @@
     display: flex; /*Transformou o cabeçalho em um flex container, e filhos viraram flex items*/
     justify-content: space-between; /*Separa os elementos com o mesmo espaço entre eles*/
     align-items: center;
+    position: relative;
 }
 
 .container {
@@ -23,3 +24,11 @@
     padding: 1em;
 }
 
+.lista__menu{
+    display: none;
+    position: absolute;
+}
+
+.container__botão:checked~ .lista__menu{ /*Pseudo classe css, estrutura condicional; Se o input botão estiver check, ir para lista menu e adicionar tal ação*/ 
+    display: block;
+}
