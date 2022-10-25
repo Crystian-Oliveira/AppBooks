@@ -23,6 +23,10 @@
     align-items: center;
 }
 
+.container__botão{
+    display: none
+}
+
 .container__imagem {
     padding: 1em;
 }
@@ -47,6 +51,11 @@
 
 .lista-menu__titulo {
     color: var(--laranja);
+    font-weight: 700;
+    line-height: 24px;
+    font-style: normal;
+
+    
 }
 
 .lista-menu__link {
