@@ -22,7 +22,7 @@
 .banner__pesquisa{
     background-color: transparent;
     border: 1px solid var(--branco);
-    border-radius: 8px;
+    border-radius: 20px;
     color: var(--branco);
     padding: 1em;
     width: 100%;
