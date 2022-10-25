@@ -34,6 +34,6 @@
     font-family: var(--fonte-principal);
     font-weight: 400;
     font-style: normal;
-    background: url("img/Lupa.svg") no-repeat;
+    background: url("img/Lupa.svg") no-repeat; /*Permite sepretir uma vez a imagem*/
 
 }
