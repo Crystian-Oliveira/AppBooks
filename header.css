@@ -31,12 +31,11 @@
     display: none;
     position: absolute;
     top: 100%;          /*100% a baixo do cabeçalho*/
-    
+    width: 60vw;  /*Pega a largura da tela 60% "viewport width"*/
 
 }
 
-.container__botão:checked~.lista__menu {
-    /*Pseudo classe css, estrutura condicional; Se o input botão estiver check, ir para lista menu e adicionar tal ação*/
+.container__botão:checked~.lista__menu /*Pseudo classe css, estrutura condicional; Se o input botão estiver check, ir para lista menu e adicionar tal ação*/ { 
     display: block;
 }
 
