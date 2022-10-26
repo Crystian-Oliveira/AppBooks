@@ -21,11 +21,13 @@
 
 .banner__pesquisa{
     background-color: transparent;
+    text-align: center;
     border: 1px solid var(--branco);
     border-radius: 20px;
     color: var(--branco);
     padding: 1em;
     width: 100%;
+    
 }
 
 .banner__pesquisa::placeholder{
