@@ -12,6 +12,10 @@
 
 }
 
+.swiper-slide img{
+    width: 100%;
+}
+
 .swiper-button-prev, swiper-button-next{
     display: none;
 }
@@ -19,4 +23,5 @@
 .swiper-scrollbar{
     display: none;
 }
+
 
