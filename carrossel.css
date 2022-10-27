@@ -24,4 +24,9 @@
     display: none;
 }
 
+.swiper-pagination{
+    margin: .5em;
+    position: initial;
+}
+
 
