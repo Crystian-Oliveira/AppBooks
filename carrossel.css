@@ -29,4 +29,9 @@
     position: initial;
 }
 
+.card__descrição{
+    display: flex;
+
+}
+
 
