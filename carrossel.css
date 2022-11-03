@@ -66,6 +66,7 @@
 
 .card__botões{
     display: flex;
+    margin: .5em 0;
     justify-content: space-between;
 }
 .botões{
@@ -76,5 +77,15 @@
     padding: .5em;
 }
 
-.botões__ancora{
+.botões__ancora {
+    text-decoration: none; 
+    padding: 1em 2.2em;
+    background-color: var(--laranja); 
+    color: var(--branco);
+    font-weight: bolder;
+    font-family: var(--fonte-principal);
+    margin-top: .5em;
+    
 }
+
+
